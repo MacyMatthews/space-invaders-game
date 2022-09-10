@@ -1,0 +1,60 @@
+.grid {
+	width: 600px;
+	height: 600px;
+	border: solid black 2px;
+	display: flex;
+	flex-wrap: wrap;
+    background: linear-gradient(rgb(4, 4, 31), rgb(3, 9, 63));
+    margin: auto;
+}
+
+.grid div {
+	width: 40px;
+	height: 40px;
+}
+
+.invader {
+	background-color: green;
+	border-radius: 20px;
+}
+
+.shooter {
+	background-color: purple;
+}
+
+.laser {
+	background-color: orange;
+}
+
+.boom {
+	background-color: red;
+}
+
+h1 {
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+	font-weight: bold;
+	color: yellow;
+}
+
+
+h2{
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+	font-weight: bold;
+	color: yellow;
+}
+
+  
+p{
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+	font-weight: bold;
+	color: yellow;
+	font-size: 20px;
+ }
+  
+ body {
+	background-image: url(https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmlnaHQlMjBza3l8ZW58MHx8MHx8&w=1000&q=80);
+ }
+ 
